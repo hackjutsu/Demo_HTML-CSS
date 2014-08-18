@@ -1,0 +1,50 @@
+    <style>
+      .redtext {color:red;}
+      .greentext {color:green;}
+
+      #first_awesome_div {border: 2px solid red;
+                          position: absolute;
+                          top: 15px;
+                          left: 25px;}
+
+      #second_awesome_div {border: 2px solid green;
+                           position: relative;
+                           top: 15px;
+                           left: 5px;}
+
+      #paragraph_2 {border: 2px solid green;
+                    position: fixed;
+                    top: 50px;
+                    left: 50px;
+                   }
+
+
+      body {
+        background-color:white;
+        color:black;
+      }
+    
+      h2 {
+        text-align:center;
+        color:red;
+        font-family:arial;
+      }
+
+      p {
+        line-height:150%;
+        text-indent:25px;
+      }
+      
+      span {font-weight:bold;color:green;} <!-- change part of the paragraph within span tag -->
+
+      table {
+          
+      }
+
+      tr {background-color:yellow;}
+      td {border:2px dashed red;}
+
+      ul {font-weight:bold;}
+      ol {font-style:italic;} 
+    </style> 
+
